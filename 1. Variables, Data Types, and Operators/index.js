@@ -19,7 +19,7 @@ console.log(num);
 const val1 = 1.3;
 
 console.log(val1);
-
+console.log("There is an error if you try reassinging the constant value of the variable.")
 // Checkpoint 1.1 What is the difference between var, let, and const?
 // Answer: 
 console.log("In JavaScript, var, let, and const are used to declare variables. The main difference between them is how they handle variable scope and reassignment. var is globally scoped or function/locally scoped, can be re-declared and updated. let is block-scoped, meaning it is only available within the block it is declared in. const is also block-scoped and cannot be reassigned after it is declared.")
@@ -54,7 +54,7 @@ console.log(!a);
 
 // Checkpoint 1.4 What operators did you use?
 // Answer: AND, OR, and NOT
-
+console.log("I used AND, OR, and NOT")
 
 // TODO 1.7 Try out the different relational operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#relational_operators
