@@ -6,8 +6,8 @@
 // TODO 1.1 Use the var keyword to define a variable. Log the variable to the console. Now try moving the variable declaration after you log the variable.
 // Your code here
 var val = 1.1;
-
 console.log(val);
+
 // TODO 1.2 Use the let keyword to define a variable.
 // Your code here
 let num = 1.2;
@@ -15,23 +15,27 @@ console.log(num);
 
 // TODO 1.3 Use the const keyword to define a variable. Try reassigning the value of the variable. What happens?
 // Your code here
-// there is an error if you try reassinging the constant value of the variable.
+// there is an error if you try reassigning the constant value of the variable.
 const val1 = 1.3;
 
 console.log(val1);
-console.log("There is an error if you try reassinging the constant value of the variable.")
+console.log("There is an error if you try reassigning the constant value of the variable.")
+
 // Checkpoint 1.1 What is the difference between var, let, and const?
-// Answer: 
+// Answer: In JavaScript, var, let, and const are used to declare variables. The main difference between them is how they handle variable scope and reassignment. var is globally scoped or function/locally scoped, can be re-declared and updated. let is block-scoped, meaning it is only available within the block it is declared in. const is also block-scoped and cannot be reassigned after it is declared.
 console.log("In JavaScript, var, let, and const are used to declare variables. The main difference between them is how they handle variable scope and reassignment. var is globally scoped or function/locally scoped, can be re-declared and updated. let is block-scoped, meaning it is only available within the block it is declared in. const is also block-scoped and cannot be reassigned after it is declared.")
+
 // TODO 1.4 Try out the different arithmetic operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators
 // Your code here
 const sum = 1 + .4;
 console.log(sum);
+
 // Checkpoint 1.2 What operators did you use?
-// Answer: Addition
+// Answer: Addition/+
 // Your code here
-console.log("I used Addition operator.")
+console.log("I used Addition/+ operator.")
+
 // TODO 1.5 Try out the different string operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#string_operators
 // Your code here
@@ -39,9 +43,11 @@ let str1 = "1";
 let str2 = ".6";
 let result = str1 + str2;
 console.log(result);
+
 // Checkpoint 1.3 What operators did you use?
-// Answer: Concatenation
-console.log("I used Concatenation")
+// Answer: +
+console.log("I used +")
+
 // TODO 1.6 Try out the different logical operators
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators
 // Your code here
