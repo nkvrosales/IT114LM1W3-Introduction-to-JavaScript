@@ -71,7 +71,7 @@ function modifyArray(array, modifierFunction) {
 // Then, import and call the add method here and display the value of the PI constant
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-import { add, PI } from "mathUtils.js";
+import { add, PI } from "./mathUtils.js";
 
 const result = add(2, 3);
 console.log("The sum is:", result);
