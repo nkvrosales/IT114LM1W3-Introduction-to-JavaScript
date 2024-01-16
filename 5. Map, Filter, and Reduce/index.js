@@ -32,6 +32,7 @@ console.log("Uppercase:", uppercase);
 // TODO 5.5 Use the filter method to create a new array that contains only the words with more than four letters in the array
 // Your code here
 const word = ["hello", "world", "even", "java", "bit"];
+console.log("Unfiltered words:",word);
 const filteredWords = words.filter(word => word.length > 4);
 
 console.log("Filtered words:",filteredWords);
