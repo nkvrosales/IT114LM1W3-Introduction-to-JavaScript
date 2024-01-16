@@ -29,7 +29,7 @@ const calculateArea = function(length, width) {
   const width = 10;
   const area = calculateArea(length, width);
   
-  console.log("Area: ", area);
+  console.log("Area:", area);
   
 // Checkpoint 4.2 What is a callback function? Provide an example.
 // Answer: 
@@ -71,23 +71,27 @@ function modifyArray(array, modifierFunction) {
 // Then, import and call the add method here and display the value of the PI constant
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-import { add, PI } from "./mathUtils.js";
+let num1 = 5;
+let num2 = 10;
+const mathUtils = require("./mathUtils");
 
-const result = add(2, 3);
-console.log("The sum is:", result);
-
-console.log("The value of PI is:", PI);
+console.log("Sum of "+num1,"and",num2+":",mathUtils.add(num1,num2));
+console.log("Value of PI:",mathUtils.PI);
 
 // Todo 4.5 See isPalindrome.js for the instructions to create the isPalindrome method.
 // Then, import and call the isPalindrome method here
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-import isPalindrome from "./isPalindrome.js";
+isPalindrome = require("./isPalindrome")
 
 let str = "rar";
-console.log(isPalindrome(str));
+let str2 = "civic";
+let str3 = "hello";
+console.log("Is",str,"Palindrome?:",isPalindrome(str));
+console.log("Is",str2,"Palindrome?:",isPalindrome(str2));
+console.log("Is",str3,"Palindrome?:",isPalindrome(str3));
 
 // Checkpoint 4.3 What does the require function and module.exports variable do?
 // Should we use it over the import and export keywords? Why? Research your answer.
 // Answer: 
-console.log("require and module.exports are older ways to import and export modules in Node.js, while import and export are newer and preferred, more flexible options for most JavaScript projects. We should use the new ones, but stick with the old ones for legacy or specific Node.js needs.")
+console.log("Require function and module.exports are older ways to import and export modules in Node.js, while import and export are newer and preferred, more flexible options for most JavaScript projects. We should use the new ones, but stick with the old ones for legacy or specific Node.js needs.")

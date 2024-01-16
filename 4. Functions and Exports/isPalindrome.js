@@ -15,4 +15,4 @@ function isPalindrome(str) {
     
 // Todo 4.6b Set the isPalindrome function as the default export of the module
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
-export default isPalindrome;
+module.exports = isPalindrome;
