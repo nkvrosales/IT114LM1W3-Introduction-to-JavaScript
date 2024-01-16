@@ -76,7 +76,7 @@ import { add, PI } from "mathUtils.js";
 const result = add(2, 3);
 console.log("The sum is:", result);
 
-onsole.log("The value of PI is:", PI);
+console.log("The value of PI is:", PI);
 
 // Todo 4.5 See isPalindrome.js for the instructions to create the isPalindrome method.
 // Then, import and call the isPalindrome method here
